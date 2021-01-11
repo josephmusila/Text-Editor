@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: grey;
+}
+
+.container {
+  width: 70%;
+  height: 80%;
+  border: 1px solid black;
+  background-color: #cecbc8;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
+
+.toolbar {
+  width: 70%;
+  border: 1px solid;
+  padding: 3px;
+  margin: auto;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toolbar #bold {
+  font-weight: 900;
+}
+
+.toolbar #italics {
+  font-style: italic;
+}
+
+.toolbar #underline {
+  text-decoration: underline;
+}
+
+.toolbar button {
+  width: 40%;
+  margin: 2px;
+}
+
+.working-area {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  /*   border: 1px solid rgb(41, 38, 38); */
+  margin-top: 30px;
+}
+
+.working-area #instructions {
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  color: #1f1a1a;
+}
+
+.working-area #textarea {
+  width: 90%;
+  height: 80%;
+  margin-left: 30px;
+  padding: 10px;
+  background: white;
+  resize: none;
+  outline: none;
+}
+
+.progress {
+  width: 50%;
+  border: 1px solid black;
+  background-color: white;
+  padding: 1px;
+  height: auto;
+  overflow: hidden;
+}
+
+.progress #progress {
+  height: 10px;
+  width: 0%;
+  max-width: 100%;
+  background: orangered;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            Toolbar
+        </div>
+        <div class="toolbar">
+            <button id="bold">B</button>
+            <button id="italics">I</button>
+            <button id="underline">U</button>
+            <button id="allign-left">=></button>
+            <button id="increase-font">A+</button>
+            <button id="reduce-font">A-</button>
+            <button id="delete">X</button>
+        </div>
+        <div class="working-area">
+            <div id="instructions">
+                <p class="inst">
+                    Use more than 200  words 
+                </p>
+            </div>
+            <textarea cols="10" rows="15" id="textarea"></textarea>
+           <div class="counter">
+            <p id="text-count">Words <span id="count">0</span></p>
+            <div class="progress">
+                <div id="progress">
+                    
+                </div>
+            </div>
+           </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
